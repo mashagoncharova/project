@@ -2,11 +2,24 @@
 <html>
 <head>
   <title>Amazing Project</title>
-  <link rel="stylesheet" href="public/stylesheets/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <link type="text/css" rel="stylesheet" href="public/stylesheets/styles.css">
 </head>
-<h1>Title</h1>
 <body>
-  <form name="login_form" method="POST" action="">
+  
+
+
+  <h1 id="site_title_one" class="red">Title 1</h1>
+  <h1 id="site_title_two" class="blue">Title 2</h1>
+  <h1 id="site_title_three" class="yellow">Title 3</h1>
+  <h1 id="site_title_four" class="blue">Title 4</h1>
+
+  <p>Wes Anderson pop-up four dollar toast, <span class="funky-stuff">Kickstarter </span>keffiyeh fap ethical sriracha roof party salvia beard cred gluten-free vinyl. Bushwick tote bag four dollar toast beard leggings Truffaut. Carles vinyl distillery, chillwave tilde literally PBR actually direct trade wayfarers roof party art party hashtag photo booth. Cred sartorial disrupt, raw denim meditation single-origin coffee small batch chambray roof party flexitarian. Wolf Schlitz tilde, wayfarers seitan cronut Portland typewriter flexitarian photo booth. Ennui ethical kale chips, XOXO slow-carb four dollar toast organic tofu seitan gentrify Etsy street art vegan butcher Marfa. Mlkshk drinking vinegar stumptown, ethical hoodie butcher pug tofu retro bitters tilde wolf.</p>
+
+  <p>Wes Anderson pop-up four dollar toast, keffiyeh fap ethical sriracha roof party salvia beard cred gluten-free vinyl. Bushwick tote bag four dollar toast beard leggings Truffaut. Carles vinyl distillery, <span class="pink">n single-origin coffee small batch cham</span>chillwave tilde literally PBR actually direct trade wayfarers roof party art party hashtag photo booth. Cred sartorial disrupt, raw denim meditation single-origin coffee small batch chambray roof party flexitarian. Wolf Schlitz tilde, wayfarers seitan cronut Portland typewriter flexitarian photo booth. Ennui ethical kale chips, XOXO slow-carb four dollar toast organic tofu seitan gentrify Etsy street art vegan butcher Marfa. Mlkshk drinking vinegar stumptown, ethical hoodie butcher pug tofu retro bitters tilde wolf.</p>
+
+  <form name="login_form" method="POST" action="/login">
     <label for="email" >Email</label>
     <input type="text" id="email" name="email" required />
 
@@ -16,15 +29,20 @@
     <input type="submit" id="submit" name="Submit" required/>
   </form>
 
-  <form name="signup_form" method="POST" action="">
-    <label for="email" >Email</label>
+  <form name="signup_form" method="POST" action="/signup">
+    <label for="first name" >First Name</label>
+    <input type="text" id="first name" name="first name" required/>
+
+    <label for="last name" >Last Name</label>
+    <input type="text" id="last name" name="last name" required/>
+
+    <label for="email" >E-Mail</label>
     <input type="text" id="email" name="email" required/>
 
     <label for="password" >Password</label>
-    <input type="text" id="password" name="password" required/>
+    <input type="password" id="password" name="password" required/>
 
-    <label for="submit" >Submit</label>
-    <input type="submit" id="submit" name="submit" required/>
+    <input type="submit" id="submit" name="Submit" required/>
   </form>
 </body>
 </html>

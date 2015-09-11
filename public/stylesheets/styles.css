@@ -1,2 +1,34 @@
-h1 {
-   #993366;}
+/*h1 { color: blue; }*/
+
+/*class styles are prefixed with . */
+.blue { color: blue; }
+.green { color: green; }
+.red { color: red; }
+.yellow { color: yellow; }
+
+/*id styles are prefixed with # */
+#site_title_one { color: blue; }
+#site_title_two { color: purple; }
+#site_title_three { color: white; }
+#site_title_four { color: gray; }
+
+.funky-stuff {
+	color: red;
+	font-family: Helvetica, sans-serif;
+}
+
+.pink {
+	color: yellow;
+	font-family: Helvetica, sans-serif;
+}
+
+body
+{padding-left: 50px;
+padding-right: 50px;
+text-align: justify;
+line-height: 20px;}
+
+
+.btn-default {
+	color: black;
+}
